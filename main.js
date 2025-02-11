@@ -6,8 +6,8 @@ form.addEventListener('submit', function(e) {
     const campoA = document.getElementById('campo-a');
     const campoB = document.getElementById('campo-b');
 
-    const mensagemSucesso = `Sucesso: O valor de B: <b>${campoB.value}</b> é maior doque campo A: <b>${campoA.value}`;
-    const mensagemErro = `Erro: O valor de A: <b>${campoA.value}</b> é maior doque campo B: <b>${campoB.value}`;
+    const mensagemSucesso = `Sucesso: O valor de B: <b>${campoB.value}</b> é maior do que campo A: <b>${campoA.value}`;
+    const mensagemErro = `Erro: O valor de A: <b>${campoA.value}</b> é maior do que campo B: <b>${campoB.value}`;
 
     if(campoA.value > campoB.value){
         //document.querySelector('.error-message').style.display = 'block';
